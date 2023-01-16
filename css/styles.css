@@ -316,12 +316,16 @@ button {
 	margin-left: 24px;
 }
 .item-customer {
-		display: block;
+	display: block;
 	width: 168px;
 	height: 88px;
 	border: 1px solid #8E8F99;
 	border-radius: 4px;
 }
+.item-customer:hover {
+	border: 1px solid #4D5AE5;
+}
+
 .link.client {
 	display: flex;
 	flex-wrap: wrap;
@@ -332,9 +336,12 @@ button {
 	align-content: center;
 }
 .icon-customer {
-	display: inline-block;
+	display: inline;
+	fill: #8E8F99;
 }
-
+.icon-customer:hover {
+	fill: #4D5AE5;
+}
 
 /* footer */
 
@@ -399,7 +406,7 @@ button {
 .socials {
 	display: flex;
 	flex-direction: column;
-	margin-right: 120px;
+	margin-right: 80px;
 }
 
 /* page protfolio */
